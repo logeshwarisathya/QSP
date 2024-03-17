@@ -1,0 +1,1934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <link rel="stylesheet" href="C:\Users\USER\OneDrive\Desktop\workspace1202\dom.dom\shop proj\shop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body style="background-color: 	gainsboro" class="container-fluid">
+    <script src="https://kit.fontawesome.com/d281615c03.js" crossorigin="anonymous"></script>
+<div class="w-100">
+  
+    <!-- <nav class="navbar navbar-dark bg-dark"> -->
+        <!-- Navbar content -->
+        <nav id="top" class="navbar navbar-expand-lg navbar-light bg-dark container-fluid " >
+            <div class="container-fluid">
+              <a class="navbar-brand   text-light " id="radial" href="#" ><img id="icon" src="https://cdn-icons-png.flaticon.com/128/8061/8061466.png "  height="50px" alt="" > Shopzy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active   text-light " aria-current="page" href="#" ><i class="fa-solid fa-house"></i>Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-light " href="#"><i class="fa-solid fa-cart-plus"></i></i>Cart</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-light " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i>Profile
+                    </a>
+                    <ul id="home" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log in</button></li>
+                    <li><button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@fat">Sign in</button></li>
+                  </ul></li>
+            
+        
+<!-- ...........log in................ -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div><br>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Log in</button>
+              <p class="mt-5 mb-3 text-muted">&copy; 2021–2024</p>
+            
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- ....................sign in -->
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">User Name</label>
+            </div><br>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div><br>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              <p class="mt-5 mb-3 text-muted">&copy; 2021–2024</p>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ........................................................... -->
+</ul>
+</li>
+<li class="nav-item" id="notification">
+  <button type="button" class="btn btn-primary position-relative" >
+      <i class="fa-solid fa-bell"></i>
+      <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+        <span class="visually-hidden">New alerts</span>
+      </span>
+    </button>
+</li>
+</ul>              
+
+ </div>
+                      </div>
+                    <!-- .................. -->
+                     
+                      
+                     
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary   btn btn-green    text-light   " type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </nav>
+     
+<nav id="nav2" class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <!-- Navbar content -->
+    <div class="dropdown">
+      
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Women Ethnic
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item text-decoration-none" href="#sarees">saree</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">kurti</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">kurta sets</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">Suits & Dress Material</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">Other Ethnic</a></li>
+        </ul>
+       
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Women Western
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+
+          <li><a class="dropdown-item text-decoration-none" href="#kurti"> Top wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">Bottom wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">Inner wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kurti">Sleep wear</a></li>
+
+               
+                           
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Men
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#men">Top wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#men"> Bottom wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#men">Men Accessories</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#men">Men Footwear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#men">Ethnic wear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#men">Inner & Sleep wear</a></li>
+
+
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Kids
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#kids">Boys & Girls 2+ Years</a></li>
+         <li><a class="dropdown-item text-decoration-none" href="#kids">Infant 0-2 Years</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kids">Toys & Accessories</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#kids">Baby Care</a></li>
+
+                            
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Home & Kitchen
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#Home & Kitchen">Home Furnishing</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Home & Kitchen">Home Decor</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Home & Kitchen">Kitchen Dining</a></li>
+
+                
+                       
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Beauty & Health
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#beauty">Make Up</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#beauty">Wellness</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#beauty">Skin Care</a></li>
+
+               
+                        
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Jewellery & Accessories
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#jewellery">Jewellery</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#jewellery">Women Accessories</a></li>
+
+                   
+            </ul>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Bags & Footwear
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#Bags & Footwear">Women Bags</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Bags & Footwear">Men Bags</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Bags & Footwear">Men Footwear</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Bags & Footwear">Women Footwear</a></li>
+
+           
+                        
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Electronics
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div class="dropdown">
+          <li><a class="dropdown-item text-decoration-none" href="#Electronics">Mobile & Accessories</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="#Electronics">Appliances</a></li>
+
+               
+        </ul>
+      </div>
+  </nav>
+
+<!-- CAROUSAL -->
+<div id="carousal">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators"  >
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner  container " >
+      <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2017/03/13/17/26/ecommerce-2140603__340.jpg" width="100%" height="300px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          
+          <p ><h2 style="color: black;"> Sell your products to crores of customers at 0% commission.</h2></p>
+        </div>
+      </div>
+      <div class="carousel-item  container">
+        <img src="https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470__340.jpg" width="100%" height="300px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+          <p><h2 style="color: white;"> Shop the latest in cool, comfy, and on-trend fashions—all at the best price.</h2></p>
+        </div>
+      </div>
+      <div class="carousel-item  container">
+        <img src="https://media.istockphoto.com/id/1206800961/photo/online-shopping-and-payment-man-using-tablet-with-shopping-cart-icon-digital-marketing.jpg?s=612x612&w=0&k=20&c=qG_9JB9ll4P5to97_HVxzMqhhzF0Gi1nWM_hNeiotbk=" width="100%" height="300px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+          <p><h2 style="color: white;">If you’re looking to buy something special, shop here. </h2></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<br>
+<br>
+
+
+<figure class=" container text-center" style="background-image: conic-gradient(red, yellow, green, blue, black); ; border: 3px solid  rgb(54, 53, 59);" >
+  <div class="container marketing">
+    <h1 id="topcat"><center>Top Categories to choose from</center></h1>
+<div >
+  <figure class="text-center">
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+     <a href="#sarees"><img id="img1" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649760442043.webp" width="140" height="140px"></a> 
+
+      <h2>Woman's Wear</h2>
+      
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+     <a href="#men"><img id="img2" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649760423313.webp" width="140" height="140">
+     </a> 
+      <h2>Men's Wear</h2>
+      
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+     <a href="#kids"><img id="img3" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649759799809.webp" width="140" height="140">
+     </a> 
+
+      <h2>Kid's Wear</h2>
+     
+      
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+</figure>
+</div>
+
+<br><br>
+
+<div>
+  <figure class="text-center">
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+    <a href="#beauty"><img id="img4" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649760808952.webp" width="140" height="140">
+    </a>  
+      <h2>Beauty</h2>
+      
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+     <a href="#Home & Kitchen"><img id="img5" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649760703179.webp" width="140" height="140">
+     </a> 
+      <h2>Home</h2>
+      
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+     <a href="#Electronics"> <img id="img6" class="bd-placeholder-img rounded-circle" src="https://images.meesho.com/images/marketing/1649760786763.webp" width="140" height="140">
+     </a>
+
+      <h2>Electronics</h2>
+     
+      
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+</figure>
+</div>
+</figure>
+</div>
+<br>
+
+
+
+<figure class="text-center">
+  <div class="container marketing">
+<hr>
+</div>
+</figure>
+
+<br>
+
+  
+<!-- heading -->
+<figure class="container  text-center  list-group-item list-group-item-action list-group-item-secondary" style="background-color: 
+lightsteelblue; border: 3px solid  rgb(2, 80, 80);">
+  <div class="container marketing">
+<div >
+  <figure class="text-center">
+    <blockquote class="blockquote ">
+      <h1 id="lowprice">Lowest Prices &
+        Best Quality Shopping</h1>
+    </blockquote>
+    <!-- <figcaption class="blockquote-footer">
+      Top Categories to choose from <cite title="Source Title"></cite>
+    </figcaption> -->
+<br>
+<br>
+<div class="container ">
+  <div class="row">
+    <div class="col">
+      <a href="#" class="list-group-item list-group-item-action list-group-item-info" style="border: 2px solid  rgb(5, 71, 71)"><i class="fa-solid fa-truck-front" width="70px"></i><b> Free Delivery</b> </a>
+    </div>
+    <div class="col">
+      <a href="#" class="list-group-item list-group-item-action list-group-item-info" style="border: 2px solid  rgb(5, 71, 71)"><i class="fa-solid fa-sack-dollar" width="70px"></i><b> Cash on Delivery</b></a>
+    </div>
+    <div class="col">
+   <a href="#" class="list-group-item list-group-item-action list-group-item-info" style="border: 2px solid  rgb(5, 71, 71)"> <i class="fa-solid fa-rotate-left" width="70px"></i> <b> Easy Returns</b></a>
+    </div>
+  </div>
+</div>
+
+</figure>
+</div>
+<br>
+
+
+
+
+<!-- <figure class="text-center">
+  <div class="container marketing">
+<hr><h1>Top Categories to choose from</h1><hr>
+  </figure>
+</div> -->
+
+
+<figure class="text-center">
+  <div class="container marketing">
+<div class="d-grid gap-2 col-6 mx-auto">
+  
+ <button class="list-group-item list-group-item-dark" style="border: 2px solid rgba(12, 16, 17, 0.753); color: black; background-color: rgb(41, 41, 167);" type="button"><a href="https://play.google.com/" style="text-decoration: none;"> <i class="fa-brands fa-google-play"></i>Download the Shopzy App</a> </button>
+</div>
+
+</figure>
+</div>
+
+</figure>
+</div>
+
+<br>
+<br>
+
+<figure class="text-center">
+  <div class="container marketing">
+<hr>
+</div>
+</figure>
+
+<br>
+
+
+
+
+
+<!-- 
+<figure class="text-center" >
+  <div class="container marketing">
+<img src="https://images.meesho.com/images/pow/downloadBannerDesktop.webp">
+</div>
+</figure>  -->
+
+
+<!-- srees cards -->
+<div>
+ <div class="row row-cols-1 row-cols-sm-4 g-4" id="sarees">    <!-- row row-cols-1 row-cols-sm-4 g-4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/175747706/jcdyz_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text">Alisha's graceful saree</p>
+          <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>789</h5>
+          <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          
+            <!-- <button type="button" class="btn btn-info ">Info</button> -->
+            <!-- <button type="button" class="rounded-pill" ></button> -->
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            
+          </div>
+          
+        </div>
+       
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/169129260/8rv30_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text">banita petite sarees</p>
+          <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>340</h5>
+          <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          </div>
+          <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/97668754/lys3m_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+        <p class="card-text">Agyeiyi Attractive saree</p>
+        <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>514</h5>
+        <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          </div>
+          <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        </div>
+        
+       
+      </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/71066367/ir3gg_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <p class="card-text">Asha's preety saree</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>550</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+        
+          
+        </div>
+      </div>
+  </div>
+<br>
+  
+<div class="row row-cols-1 row-cols-sm-4 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/159987546/yeglm_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">abisarika preety saree</p>
+        <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>650</h5>
+        <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+        
+          
+        </div><br><br>
+        <p class="text-muted">
+          free delivery</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/167816092/d1l8o_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text">charvi fabulous saree</p>
+          <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>850</h5>
+          <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+        
+          
+        </div>
+        <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.meesho.com/images/products/163540994/q0req_400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text">silk saree</p>
+          <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>1,450</h5>
+          <div class="d-grid gap-2 d-md-block">   
+            <button class="btn btn-primary" type="button">Buy Now</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          </div>
+          <br><br>
+            <p class="text-muted">
+              free delivery</p>
+                </div>
+        
+      </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/102496008/sr2jo_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+           <p class="card-text">silk saree</p>
+           <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>2,550</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+          </div>
+          
+        </div>
+      </div>
+  </div>
+
+</div>
+<br>
+<!-- kutas -->
+
+<div>
+    <div class="row row-cols-1 row-cols-sm-4 g-4" id="kurti">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/162922010/iasij_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+    
+              <p class="card-text">cotton kurti</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>450</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/110089029/zxv7f_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                  <p class="card-text">fancy kurti</p>
+                  <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>550</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/129585716/ty3fy_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">embroided kurti</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>750</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/77073531/frfe6_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+                <p class="card-text">umbrella kurti</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>650</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                
+                <br><br>
+                <p class="text-muted">
+                  free delivery</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    
+    <br>  
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/170210010/cidun_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <p class="card-text">top</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>450</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/143922036/3wnde_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> crop top</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>350</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/124038595/4rkx4_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <p class="card-text">fancy tops</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>560</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/168503168/3fc9x_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">fancy white top</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>550</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                
+                <br><br>
+                <p class="text-muted">
+                  free delivery</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    
+<br>
+    <!-- mens wear -->
+    
+<div>
+    <div class="row row-cols-1 row-cols-sm-4 g-4" id="men">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/163811080/mpe2w_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Classic Sensational Men Tshirts</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>250</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <p class="card-text"><br><br>
+                <p class="text-muted">
+                  free delivery</p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/161848931/fqwag_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <p class="card-text"> Shirt For Men</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>322</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/106963107/c2vwt_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Palak Enterprises Casual Men's Trousers Pack of 2 || Men's Regular Wear Track Pant</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>378</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+      
+          
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/152051881/xhdrt_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">mirror work festival kurta</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>950</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    <br>
+      
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/46986091/qfd2b_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">MR.MANDAVIYA Stylish Analog Watches</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>780</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              
+              
+            </div><br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/127583082/u4fjg_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Aadab Attractive Men Sports Shoes</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>698</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+
+      
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/116868151/uq7dq_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">STRETCH JEANS FOR MEN</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>993</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+      
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/166251675/rvocq_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Classy Men Ethnic Jacket</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>497</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+              </div>
+        
+              
+            </div>
+          </div>
+      </div>
+    
+    </div>
+
+<br>
+    <!-- kids wear -->
+        
+<div>
+    <div class="row row-cols-1 row-cols-sm-4 g-4" id="kids">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/139079126/5aq8z_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Tinckle Fancy Girls frocks</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>620</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+  
+            </div>
+           
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/128745123/m8ldf_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Flawsome Stylus Girls Frocks & Dresses</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>1181</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          
+              
+            </div><br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/168969335/cjjvy_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">New Born Baby unique printed rompers(only romper)</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>167</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/73709019/pxnkn_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">new born baby woolen winter wear Cutiepie Girls and Boys Oneseis & Rompers ( 0-3 months only)</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>350</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    <br>
+      
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/84937246/hbpxx_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Elite Baby Mosquito Nets Combo</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>456</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/84026610/1hopf_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">classy kids teddy bear</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>244</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/52164201/u8rye_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Princess Stylus Boys Onesies & Rompers</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>540</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/164845479/m3i3g_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">new kids stuffed toys</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>470</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+              
+              </div>
+             
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    <br>
+<!--Home & Kitchen  -->
+       
+<div>
+    <div class="row row-cols-1 row-cols-sm-4 g-4" id="Home & Kitchen">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/164028506/gro8i_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"></p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>450</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                <br><br>
+                <p class="text-muted">
+                  free delivery</p>
+              
+            </div>
+            </div>
+           
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/19736078/e9077_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">trendy cookie jars</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>461</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/172888724/bkelq_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">mordern racks and holders</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>944</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+            
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/170924038/ztnca_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">gracefull water bottles</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>275</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          
+                
+              </div><br><br>
+              <p class="text-muted">
+                free delivery</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    <br>
+      
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/42554099/q93ox_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">elite pressure cooker</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>1,450</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+      
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/7123454/2f241_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">wonderful appam maker</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>244</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/167553774/k7m86_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">colourful kitchen mat</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>144</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+      
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/30864865/74eab_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Wall clock</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>887</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              
+                
+              </div><br><br>
+              <p class="text-muted">
+                free delivery</p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    <br>
+<!-- Beauty & Health -->
+       
+<div>
+    <div class="row row-cols-1 row-cols-sm-4 g-4" id="beauty">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/168447830/f9oim_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">new face makeup combo</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>650</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+        
+           
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/23734092/4a6f4_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">new collection of face</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>250</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+            
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/151382717/fau7c_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">usefull face makeup</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>462</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/19726317/e7tjr_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">superior refreshing deos</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>358/h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+      
+              </div>
+             
+            </div>
+          </div>
+      </div>
+    
+      <br>
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/8482026/2c684_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">ramson deodrant spray</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>495</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+        
+              
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/145490128/ymkoy_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">premium rich look nail polish</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>450</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/133375639/mr7ge_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">premium long stay lipstick</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>250</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://images.meesho.com/images/products/99867212/bdm4e_400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">makeup kit</p>
+                <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>530</h5>
+                <div class="d-grid gap-2 d-md-block">   
+                  <button class="btn btn-primary" type="button">Buy Now</button>
+                  <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+                </div>
+                <br><br>
+            <p class="text-muted">
+              free delivery</p>
+                
+  
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    <br>
+
+<!-- Jewellery & Accessories -->
+       
+<div>
+  <div class="row row-cols-1 row-cols-sm-4 g-4" id="jewellery">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/81153412/zg3my_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">elite graceful Jewellery</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>550</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+      
+            
+          </div>
+          <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+         
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/151994161/drurk_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">elite fancy Jewelleryset</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>950</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+      
+            
+          </div>
+          <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/131521065/vzk2c_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">temple set</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>1,250</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+          
+            
+          </div><br><br>
+          <p class="text-muted">
+            free delivery</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/165105219/mvhw5_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">shimmering colourful branded bangles</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>750</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          
+            </div>
+            
+          </div>
+        </div>
+    </div>
+  <br>
+    
+  <div class="row row-cols-1 row-cols-sm-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/162150326/c7xnk_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Couple rings</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>150</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+      
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/3389409/1_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">twinkling elegant alloy anklet</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>350</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+        
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/107898520/anfv3_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Elite graceful Women anklet</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>560</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/146110365/vcipn_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">shimmering fancy anklet</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>550</h5>
+            
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              
+              
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p></div>
+           
+          </div>
+        </div>
+    </div>
+  
+  </div>
+  <br>
+<!--Bags & Footwear  -->
+       
+<div>
+  <div class="row row-cols-1 row-cols-sm-4 g-4" id="Bags & Footwear">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/128504650/qxzar_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">trendy alluring bags</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>338</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/154894230/hqfug_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Classic Fancy Women hand bags</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>169</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+    
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/159024941/6gics_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Elite fashionable Women bags</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>325</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+    
+            
+          </div><br><br>
+          <p class="text-muted">
+            free delivery</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/59895324/ixao3_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Fancy trendy men wallet</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>261</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+      
+              
+            </div><br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+           
+          </div>
+        </div>
+    </div>
+  
+   <br>
+      
+  
+<!-- Electronics -->
+       
+<div>
+  <div class="row row-cols-1 row-cols-sm-4 g-4" id="Electronics">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/78591203/akim8_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">mi redme gocases</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>150</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+        
+            
+          </div><br><br>
+          <p class="text-muted">
+            free delivery</p>
+          </div>
+         
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/144495835/mi4dw_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">smart Watches</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>368</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/154401202/7j1bh_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">smart Watches</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>665</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/142460577/kcnok_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Fancy mini fan</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>315</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              <br><br>
+            <p class="text-muted">
+              free delivery</p>
+            </div>
+            
+            
+          </div>
+        </div>
+    </div>
+  
+    <br>
+  <div class="row row-cols-1 row-cols-sm-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/125533101/rugyf_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Attractive irons</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>302</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+        
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/63054695/j6fmr_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">classy mini fans</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>558</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            </div>
+            
+            <br><br>
+            <p class="text-muted">
+              free delivery</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.meesho.com/images/products/164601218/g3siu_400.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Attractive irons</p>
+            <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>697</h5>
+            <div class="d-grid gap-2 d-md-block">   
+              <button class="btn btn-primary" type="button">Buy Now</button>
+              <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+            
+            
+          </div><br><br>
+          <p class="text-muted">
+            free delivery</p>
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://images.meesho.com/images/products/14119782/f9abd_400.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">mordern table lamps</p>
+              <h5 class="card-title"><i class="fa-solid fa-indian-rupee-sign"></i>310</h5>
+              <div class="d-grid gap-2 d-md-block">   
+                <button class="btn btn-primary" type="button">Buy Now</button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa-sharp fa-solid fa-cart-plus"></i>Add to Cart</button>
+              </div>
+              
+              <br><br>
+              <p class="text-muted">
+                free delivery</p>
+            </div>
+          
+          </div>
+        </div>
+    </div>
+  
+  </div>
+  <br>
+
+
+<!-- footer -->
+
+
+<div id="ul">
+   
+   
+  <li type="none"><a href="#" > <img id="insta" src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt=""></a></li>
+ <li type="none"><a href="#"><img id="fb" src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt=""></a></li>  
+  <li type="none"><a href="#"><img id="whatsapp" src="https://cdn-icons-png.flaticon.com/128/2504/2504957.png" alt=""></i></a></li>
+
+
+  <div id="li1">
+   <ul type="none">
+          <li id="t1"><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">WOMEN'S WEAR</a></li>
+          <hr>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">Sarees</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">kurti</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">kurta sets</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">tops</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">Sleep wear</a></li>  
+  </ul>
+       </div>
+
+  <div id="li2">
+    <ul type="none">
+          <li id="t2"><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">MEN'S WEAR</a></li>
+          <hr>  
+      <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">shirts</li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">Tshirts</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;"> jeans</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">shoea</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">watch</a></li>  
+  </ul>
+      
+  </div>
+  <div id="li3">
+     <ul type="none">
+          <li id="t3"><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">KIDS WEAR</a></li>
+          <hr>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">boys & girls 2+ years</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">infant 0-2 years</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">toys & Accessories</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">baby care</a></li>
+        
+       
+  </ul>
+  </div>
+  <div id="li4">
+     
+      <ul type="none">
+          <li id="t3"><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">HOME & KITCHEN</a></li>
+          <hr>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">home furnishing</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">home decor</a></li>
+
+  </ul>
+  </div>
+  <div id="li5">
+     <ul type="none">
+      <ul type="none"> <li id="t4"> <a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">BAGS & FOOTWEAR</a></li>
+          <hr>
+       
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">women bags</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">men bags</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">men footwear</a></li>
+       <li><a href="#top" style="color: rgb(185, 183, 179); text-decoration: none;">women footwear</a></li>  
+  </ul>
+  
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
